@@ -1,0 +1,45 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 25%;
+  height: 80%;
+  background-color: white;
+  border-radius: 13px;
+  padding: 20px;
+
+  border-right: 8px solid hsl(0, 0%, 7%);
+  border-bottom: 8px solid hsl(0, 0%, 7%);
+}
+.peter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.peter img {
+  width: 100%;
+  border-radius: 10px;
+}
+h3 {
+  background-color: hsl(47, 88%, 63%);
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.peter2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.peter2 img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.change {
+  color: hsl(0, 0%, 42%);
+}
